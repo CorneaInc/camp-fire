@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Camp Fire Resources</name>
+	<open>1</open>
+	<description><![CDATA[<img src="https://static1.squarespace.com/static/58d56b13ff7c50b172751b90/t/5b9ad2aa4fa51a237ab61165/1538088715029/?format=1500w">A collection of resouces for first responders and the general public impacted by the Camp Fire. By the team at <a href="https://cornea.is">https://cornea.is</a>.]]></description>
+	<LookAt>
+		<longitude>-121.6517701695736</longitude>
+		<latitude>39.71873220907061</latitude>
+		<altitude>0</altitude>
+		<heading>-2.522029524168557</heading>
+		<tilt>0</tilt>
+		<range>82670.20593244182</range>
+		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+	</LookAt>
+	<Style>
+		<ListStyle>
+			<listItemType>check</listItemType>
+			<bgColor>00ffffff</bgColor>
+			<maxSnippetLines>2</maxSnippetLines>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>Selected Cornea Base Information</name>
+		<open>1</open>
+		<description>Cornea is a tool used by incident commanders. These are a few pieces of real-time information they tend to find useful, retrieved directly from public-sector servers.</description>
+		<NetworkLink id="Active Large Fires Perimeters">
+			<name>Active Large Fires</name>
+			<open>1</open>
+			<styleUrl>myplaces.kml#flame</styleUrl>
+			<Style>
+				<ListStyle>
+					<listItemType>checkHideChildren</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<Url>
+				<href>http://rmgsc.cr.usgs.gov/outgoing/GeoMAC/ActiveFirePerimeters.kml?</href>
+				<refreshMode>onInterval</refreshMode>
+				<refreshInterval>300</refreshInterval>
+				<viewRefreshMode>onRequest</viewRefreshMode>
+			</Url>
+		</NetworkLink>
+		<NetworkLink>
+			<name>Fire Weather Forecast</name>
+			<visibility>0</visibility>
+			<Style>
+				<ListStyle>
+					<listItemType>check</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<Link>
+				<href>https://fsapps.nwcg.gov/afm/data/kml/conus_fire_wx.kmz?</href>
+				<refreshMode>onInterval</refreshMode>
+				<refreshInterval>3604</refreshInterval>
+				<viewRefreshMode>onRequest</viewRefreshMode>
+			</Link>
+		</NetworkLink>
+		<Folder>
+			<name>Hotspots Detected from Space</name>
+			<visibility>0</visibility>
+			<Style>
+				<ListStyle>
+					<listItemType>radioFolder</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<Folder>
+				<name>Active Fire MODIS Detect</name>
+				<visibility>0</visibility>
+				<NetworkLink>
+					<name>Conus</name>
+					<visibility>0</visibility>
+					<Link>
+						<href>https://fsapps.nwcg.gov/afm/data/kml/conus.kmz</href>
+					</Link>
+				</NetworkLink>
+				<NetworkLink>
+					<name>Alaska</name>
+					<visibility>0</visibility>
+					<Link>
+						<href>https://fsapps.nwcg.gov/afm/data/kml/alaska.kmz</href>
+					</Link>
+				</NetworkLink>
+			</Folder>
+			<NetworkLink>
+				<name>VIIRS-AF Fire Detections</name>
+				<visibility>0</visibility>
+				<Link>
+					<href>https://fsapps.nwcg.gov/afm/data_viirs/kml/conus.kmz</href>
+					<refreshMode>onInterval</refreshMode>
+					<refreshInterval>900</refreshInterval>
+				</Link>
+			</NetworkLink>
+			<NetworkLink>
+				<name>VIIRS I Band Fire Detections</name>
+				<visibility>0</visibility>
+				<Link>
+					<href>https://fsapps.nwcg.gov/afm/data_viirs_iband/kml/conus.kmz</href>
+					<refreshMode>onInterval</refreshMode>
+					<refreshInterval>900</refreshInterval>
+				</Link>
+			</NetworkLink>
+			<NetworkLink>
+				<name>Landsat 8 Fire Detections</name>
+				<visibility>0</visibility>
+				<Link>
+					<href>https://fsapps.nwcg.gov/afm/data_landsat/kml/conus.kmz</href>
+					<refreshMode>onInterval</refreshMode>
+					<refreshInterval>900</refreshInterval>
+				</Link>
+			</NetworkLink>
+			<NetworkLink>
+				<name>GOES Fire Detections</name>
+				<visibility>0</visibility>
+				<Link>
+					<href>https://fsapps.nwcg.gov/afm/data_goes/kml/conus.kmz</href>
+					<refreshMode>onInterval</refreshMode>
+					<refreshInterval>900</refreshInterval>
+				</Link>
+			</NetworkLink>
+			<NetworkLink>
+				<name>AVHRR Fire Detections</name>
+				<visibility>0</visibility>
+				<Link>
+					<href>https://fsapps.nwcg.gov/afm/data_avhrr/kml/conus.kmz</href>
+					<refreshMode>onInterval</refreshMode>
+					<refreshInterval>900</refreshInterval>
+				</Link>
+			</NetworkLink>
+		</Folder>
+	</Folder>
+	<Folder>
+		<name>Infrared Fire Perimeter</name>
+		<visibility>0</visibility>
+		<description>Gathered each evening by NIROPS aircraft.</description>
+		<Style>
+			<ListStyle>
+				<listItemType>radioFolder</listItemType>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<NetworkLink>
+			<name>NIROPS - 11-12</name>
+			<visibility>0</visibility>
+			<Style>
+				<ListStyle>
+					<listItemType>check</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<Link>
+				<href>https://ftp.nifc.gov/public/incident_specific_data/calif_n/!CALFIRE/2018_Incidents/CA-BTU-016737_Camp/IR/20181112/20181112_Camp_IR.kmz?</href>
+				<refreshMode>onInterval</refreshMode>
+				<refreshInterval>3604</refreshInterval>
+				<viewRefreshMode>onRequest</viewRefreshMode>
+			</Link>
+		</NetworkLink>
+	</Folder>
+	<NetworkLink>
+		<name>Calfire Operations Map - 11-12</name>
+		<visibility>0</visibility>
+		<description>The latest fire operations map from CALFIRE.</description>
+		<Style>
+			<ListStyle>
+				<listItemType>checkHideChildren</listItemType>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Link>
+			<href>https://ftp.nifc.gov/public/incident_specific_data/calif_n/!CALFIRE/2018_Incidents/CA-BTU-016737_Camp/GIS/Products/20181112/Camp_HiRes_20181112_Ops_7.kmz?</href>
+			<refreshMode>onInterval</refreshMode>
+			<refreshInterval>3604</refreshInterval>
+			<viewRefreshMode>onRequest</viewRefreshMode>
+		</Link>
+	</NetworkLink>
+	<Folder>
+		<name>Crowdsourced Data via Waze</name>
+		<visibility>0</visibility>
+		<description>Crowdsourced by Waze users and provided via Google’s Crisis Response program</description>
+		<NetworkLink>
+			<name>Road Hazards from Waze Users</name>
+			<visibility>0</visibility>
+			<Style>
+				<ListStyle>
+					<listItemType>checkHideChildren</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<Link>
+				<href>https://goo.gl/UTTC7u?</href>
+				<refreshMode>onInterval</refreshMode>
+				<refreshInterval>300</refreshInterval>
+				<viewRefreshMode>onRequest</viewRefreshMode>
+			</Link>
+		</NetworkLink>
+		<NetworkLink>
+			<name>Road Closures from Waze Users</name>
+			<visibility>0</visibility>
+			<Style>
+				<ListStyle>
+					<listItemType>checkHideChildren</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<Link>
+				<href>https://goo.gl/qrmMfc?</href>
+				<refreshMode>onInterval</refreshMode>
+				<refreshInterval>600</refreshInterval>
+				<viewRefreshMode>onRequest</viewRefreshMode>
+			</Link>
+		</NetworkLink>
+		<NetworkLink>
+			<name>Shelters via Waze</name>
+			<visibility>0</visibility>
+			<Style>
+				<ListStyle>
+					<listItemType>checkHideChildren</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<Link>
+				<href>http://www.google.com/maps/d/u/0/kml?f&amp;mid=1j_HkOwsG5U223zCK-_ZsrmQc138OOtdd&amp;lid=Q13wpGeYHkk&amp;cm.ttl=200&amp;</href>
+				<refreshMode>onInterval</refreshMode>
+				<refreshInterval>300</refreshInterval>
+				<viewRefreshMode>onRequest</viewRefreshMode>
+			</Link>
+		</NetworkLink>
+		<NetworkLink>
+			<name>Animal Shelters via Google Crisis Response</name>
+			<visibility>0</visibility>
+			<Link>
+				<href>http://www.google.com/maps/d/u/0/kml?&amp;mid=1j_HkOwsG5U223zCK-_ZsrmQc138OOtdd&amp;lid=PAqaGR4335k&amp;cm.ttl=200&amp;</href>
+				<refreshMode>onInterval</refreshMode>
+				<refreshInterval>300</refreshInterval>
+				<viewRefreshMode>onRequest</viewRefreshMode>
+			</Link>
+		</NetworkLink>
+	</Folder>
+	<NetworkLink>
+		<name>FAA Temporary Flight Restrictions (TFRs)</name>
+		<visibility>0</visibility>
+		<description><![CDATA[FAA temporary flight restrictions via <a href="http://www.2ld.de/tfr2kml/">TFR2KML</a> by Lutz Latta.]]></description>
+		<LookAt>
+			<longitude>-121.6436378488782</longitude>
+			<latitude>39.60105917254576</latitude>
+			<altitude>0</altitude>
+			<heading>-2.800848823888028</heading>
+			<tilt>0</tilt>
+			<range>110336.4326308029</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<Style>
+			<ListStyle>
+				<listItemType>checkHideChildren</listItemType>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Url>
+			<href>http://2ld.de/tfr2kml/tfr2kml.php?</href>
+			<refreshMode>onInterval</refreshMode>
+			<refreshInterval>3600</refreshInterval>
+			<viewRefreshMode>onRequest</viewRefreshMode>
+		</Url>
+	</NetworkLink>
+	<NetworkLink>
+		<name>Air Quality</name>
+		<visibility>0</visibility>
+		<description>Air quality data from AirNow.</description>
+		<Link>
+			<href>https://files.airnowtech.org/airnow/today/airnow.kml</href>
+		</Link>
+	</NetworkLink>
+	<NetworkLink>
+		<name>USFS 48hr Smoke Forecast - 11-12 - 00Z</name>
+		<visibility>0</visibility>
+		<description>Smoke models from the US Forest Services Blue Sky effort.</description>
+		<Link>
+			<href>https://haze.airfire.org/bluesky-daily/output/standard/NAM-3km/2018111200/smoke_dispersion.kmz</href>
+		</Link>
+	</NetworkLink>
+</Folder>
+</kml>
