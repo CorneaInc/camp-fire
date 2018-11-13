@@ -22,6 +22,7 @@
 	</Style>
 	<Folder>
 		<name>Selected Cornea Base Information</name>
+		<open>1</open>
 		<description>Cornea is a tool used by incident commanders. These are a few pieces of real-time information they tend to find useful, retrieved directly from public-sector servers.</description>
 		<NetworkLink id="Active Large Fires Perimeters">
 			<name>Active Large Fires</name>
@@ -275,7 +276,7 @@
 	<NetworkLink>
 		<name>Air Quality</name>
 		<visibility>0</visibility>
-		<description>Air quality data from the EPA.</description>
+		<description><![CDATA[Air quality data from the <a href="https://airnow.gov/">EPA</a>.]]></description>
 		<Link>
 			<href>https://files.airnowtech.org/airnow/today/airnow.kml</href>
 		</Link>
@@ -285,7 +286,7 @@
 		<visibility>0</visibility>
 		<description><![CDATA[Smoke models from the US Forest Services Blue Sky effort. Additional versions of the model are available at: <a href="https://tools.airfire.org/websky/v1/#status">https://tools.airfire.org/websky/v1/#status</a>]]></description>
 		<Link>
-			<href>https://haze.airfire.org/bluesky-daily/output/standard/NAM-3km/2018111212//smoke_dispersion.kmz</href>
+			<href>https://haze.airfire.org/bluesky-daily/output/standard/NAM-3km/2018111212/smoke_dispersion.kmz</href>
 		</Link>
 	</NetworkLink>
 </Folder>
