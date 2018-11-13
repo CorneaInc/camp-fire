@@ -2,7 +2,8 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Folder>
 	<name>Camp Fire Resources</name>
-	<description><![CDATA[<img src="https://static1.squarespace.com/static/58d56b13ff7c50b172751b90/t/5b9ad2aa4fa51a237ab61165/1538088715029/?format=1500w">A collection of resouces for first responders and the general public impacted by the Camp Fire. By the team at <a href="https://cornea.is">https://cornea.is</a>.]]></description>
+	<open>1</open>
+	<description><![CDATA[<img src="https://static1.squarespace.com/static/58d56b13ff7c50b172751b90/t/5b9ad2aa4fa51a237ab61165/1538088715029/?format=1500w">A collection of resouces for first responders and the general public impacted by the Camp Fire. Initiated by the team at <a href="https://cornea.is">https://cornea.is</a>. On GitHub at: <a href="https://github.com/CorneaInc/camp-fire">https://github.com/CorneaInc/camp-fire</a>]]></description>
 	<LookAt>
 		<longitude>-121.6517701695736</longitude>
 		<latitude>39.71873220907061</latitude>
