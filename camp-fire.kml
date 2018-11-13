@@ -22,7 +22,6 @@
 	</Style>
 	<Folder>
 		<name>Selected Cornea Base Information</name>
-		<open>1</open>
 		<description>Cornea is a tool used by incident commanders. These are a few pieces of real-time information they tend to find useful, retrieved directly from public-sector servers.</description>
 		<NetworkLink id="Active Large Fires Perimeters">
 			<name>Active Large Fires</name>
@@ -137,7 +136,7 @@
 	<Folder>
 		<name>Infrared Fire Perimeter</name>
 		<visibility>0</visibility>
-		<description>Gathered each evening by NIROPS aircraft.</description>
+		<description>Infrared data gathered each evening by NIROPS aircraft and manually processed by USFS personnel.</description>
 		<Style>
 			<ListStyle>
 				<listItemType>radioFolder</listItemType>
@@ -166,7 +165,7 @@
 	<NetworkLink>
 		<name>Calfire Operations Map - 11-12</name>
 		<visibility>0</visibility>
-		<description>The latest fire operations map from CALFIRE.</description>
+		<description>The latest fire operations map from CALFIRE. Currently pulled from NIFC servers manually by the Cornea team.</description>
 		<Style>
 			<ListStyle>
 				<listItemType>checkHideChildren</listItemType>
@@ -184,7 +183,7 @@
 	<Folder>
 		<name>Crowdsourced Data via Waze</name>
 		<visibility>0</visibility>
-		<description>Crowdsourced by Waze users and provided via Google’s Crisis Response program</description>
+		<description><![CDATA[Crowdsourced by Waze users and provided via Google’s <a href="https://www.google.org/our-work/crisis-response/">Crisis Response</a> program]]></description>
 		<NetworkLink>
 			<name>Road Hazards from Waze Users</name>
 			<visibility>0</visibility>
