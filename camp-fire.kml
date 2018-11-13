@@ -43,7 +43,6 @@
 		</NetworkLink>
 		<NetworkLink>
 			<name>Fire Weather Forecast</name>
-			<visibility>0</visibility>
 			<Style>
 				<ListStyle>
 					<listItemType>check</listItemType>
@@ -60,7 +59,6 @@
 		</NetworkLink>
 		<Folder>
 			<name>Hotspots Detected from Space</name>
-			<visibility>0</visibility>
 			<Style>
 				<ListStyle>
 					<listItemType>radioFolder</listItemType>
@@ -70,17 +68,14 @@
 			</Style>
 			<Folder>
 				<name>Active Fire MODIS Detect</name>
-				<visibility>0</visibility>
 				<NetworkLink>
 					<name>Conus</name>
-					<visibility>0</visibility>
 					<Link>
 						<href>https://fsapps.nwcg.gov/afm/data/kml/conus.kmz</href>
 					</Link>
 				</NetworkLink>
 				<NetworkLink>
 					<name>Alaska</name>
-					<visibility>0</visibility>
 					<Link>
 						<href>https://fsapps.nwcg.gov/afm/data/kml/alaska.kmz</href>
 					</Link>
@@ -135,7 +130,6 @@
 	</Folder>
 	<Folder>
 		<name>Infrared Fire Perimeter</name>
-		<visibility>0</visibility>
 		<description>Infrared data gathered each evening by NIROPS aircraft and manually processed by USFS personnel.</description>
 		<Style>
 			<ListStyle>
@@ -146,7 +140,6 @@
 		</Style>
 		<NetworkLink>
 			<name>NIROPS - 11-12</name>
-			<visibility>0</visibility>
 			<Style>
 				<ListStyle>
 					<listItemType>check</listItemType>
@@ -164,7 +157,6 @@
 	</Folder>
 	<NetworkLink>
 		<name>Calfire Operations Map - 11-12</name>
-		<visibility>0</visibility>
 		<description>The latest fire operations map from CALFIRE. Currently pulled from NIFC servers manually by the Cornea team.</description>
 		<Style>
 			<ListStyle>
@@ -182,11 +174,9 @@
 	</NetworkLink>
 	<Folder>
 		<name>Crowdsourced Data via Waze</name>
-		<visibility>0</visibility>
 		<description><![CDATA[Crowdsourced by Waze users and provided via Google’s <a href="https://www.google.org/our-work/crisis-response/">Crisis Response</a> program]]></description>
 		<NetworkLink>
 			<name>Road Hazards from Waze Users</name>
-			<visibility>0</visibility>
 			<Style>
 				<ListStyle>
 					<listItemType>checkHideChildren</listItemType>
@@ -203,7 +193,6 @@
 		</NetworkLink>
 		<NetworkLink>
 			<name>Road Closures from Waze Users</name>
-			<visibility>0</visibility>
 			<Style>
 				<ListStyle>
 					<listItemType>checkHideChildren</listItemType>
@@ -220,7 +209,6 @@
 		</NetworkLink>
 		<NetworkLink>
 			<name>Shelters via Waze</name>
-			<visibility>0</visibility>
 			<Style>
 				<ListStyle>
 					<listItemType>checkHideChildren</listItemType>
@@ -237,7 +225,6 @@
 		</NetworkLink>
 		<NetworkLink>
 			<name>Animal Shelters via Google Crisis Response</name>
-			<visibility>0</visibility>
 			<Link>
 				<href>http://www.google.com/maps/d/u/0/kml?&amp;mid=1j_HkOwsG5U223zCK-_ZsrmQc138OOtdd&amp;lid=PAqaGR4335k&amp;cm.ttl=200&amp;</href>
 				<refreshMode>onInterval</refreshMode>
@@ -248,7 +235,6 @@
 	</Folder>
 	<NetworkLink>
 		<name>FAA Temporary Flight Restrictions (TFRs)</name>
-		<visibility>0</visibility>
 		<description><![CDATA[FAA temporary flight restrictions via <a href="http://www.2ld.de/tfr2kml/">TFR2KML</a> by Lutz Latta.]]></description>
 		<LookAt>
 			<longitude>-121.6436378488782</longitude>
@@ -275,15 +261,13 @@
 	</NetworkLink>
 	<NetworkLink>
 		<name>Air Quality</name>
-		<visibility>0</visibility>
-		<description>Air quality data from AirNow.</description>
+		<description>Air quality data from the EPA.</description>
 		<Link>
 			<href>https://files.airnowtech.org/airnow/today/airnow.kml</href>
 		</Link>
 	</NetworkLink>
 	<NetworkLink>
 		<name>USFS 48hr Smoke Forecast - 11-12 - 00Z</name>
-		<visibility>0</visibility>
 		<description>Smoke models from the US Forest Services Blue Sky effort.</description>
 		<Link>
 			<href>https://haze.airfire.org/bluesky-daily/output/standard/NAM-3km/2018111200/smoke_dispersion.kmz</href>
