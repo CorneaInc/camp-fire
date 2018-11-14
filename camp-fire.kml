@@ -183,6 +183,7 @@
 	<Folder>
 		<name>Crowdsourced Data via Waze</name>
 		<visibility>0</visibility>
+		<open>1</open>
 		<description><![CDATA[Crowdsourced by Waze users and provided via Google’s <a href="https://www.google.org/our-work/crisis-response/">Crisis Response</a> program]]></description>
 		<NetworkLink>
 			<name>Road Hazards from Waze Users</name>
@@ -282,11 +283,10 @@
 		</Link>
 	</NetworkLink>
 	<NetworkLink>
-		<name>USFS 48hr Smoke Forecast-11-13-00Z</name>
-		<visibility>0</visibility>
+		<name>USFS 48hr Smoke Forecast-11-14-00Z</name>
 		<description><![CDATA[Smoke models from the US Forest Services Blue Sky effort. Additional versions of the model are available at: <a href="https://tools.airfire.org/websky/v1/#status">https://tools.airfire.org/websky/v1/#status</a>]]></description>
 		<Link>
-			<href>https://haze.airfire.org/bluesky-daily/output/standard/NAM-3km/2018111300//smoke_dispersion.kmz</href>
+			<href>https://haze.airfire.org/bluesky-daily/output/standard/NAM-3km/2018111400//smoke_dispersion.kmz</href>
 		</Link>
 	</NetworkLink>
 </Folder>
